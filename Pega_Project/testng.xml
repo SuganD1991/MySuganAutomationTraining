@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite"  thread-count="3" >
+<!-- Parallel Cross-browser testing is done here -->
+
+<test name="TestingOnChrome">
+
+<classes>
+<class name="Pega_Login.Login_Page"/>
+</classes>
+</test> 
+
+<test name="Testchrome">
+
+<classes>
+<class name="Pega_Login.Login_Page"/>
+</classes>
+</test>
+
+<test name="Testerchrome">
+
+<classes>
+<class name="Pega_Login.Login_Page"/>
+</classes>
+</test>
+
+<test name="ValidCredentials">
+
+<classes>
+<class name="Twice_Login.Valid_Credentials"/>
+</classes>
+</test>
+
+<test name="InvalidCredentials">
+
+<classes>
+<class name="Twice_Login.Invalid_Credentials"/>
+</classes>
+</test>
+
+
+</suite>

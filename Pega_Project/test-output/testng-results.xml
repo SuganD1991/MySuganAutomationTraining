@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-22T20:12:42 IST" name="MySuite" finished-at="2021-11-22T20:19:32 IST" duration-ms="409321">
+    <groups>
+    </groups>
+    <test started-at="2021-11-22T20:12:42 IST" name="TestingOnChrome" finished-at="2021-11-22T20:13:57 IST" duration-ms="74592">
+      <class name="Pega_Login.Login_Page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Pega_Login.Login_Page@729d991e]" started-at="2021-11-22T20:12:42 IST" name="setup" finished-at="2021-11-22T20:12:45 IST" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="URL()[pri:0, instance:Pega_Login.Login_Page@729d991e]" started-at="2021-11-22T20:12:45 IST" name="URL" finished-at="2021-11-22T20:12:58 IST" duration-ms="12864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="Username()[pri:0, instance:Pega_Login.Login_Page@729d991e]" started-at="2021-11-22T20:12:58 IST" name="Username" finished-at="2021-11-22T20:13:08 IST" depends-on-methods="Pega_Login.Login_Page.URL" duration-ms="10154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method signature="Password()[pri:0, instance:Pega_Login.Login_Page@729d991e]" started-at="2021-11-22T20:13:08 IST" name="Password" finished-at="2021-11-22T20:13:19 IST" depends-on-methods="Pega_Login.Login_Page.Username" duration-ms="10170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method signature="Login_Button()[pri:0, instance:Pega_Login.Login_Page@729d991e]" started-at="2021-11-22T20:13:19 IST" name="Login_Button" finished-at="2021-11-22T20:13:46 IST" depends-on-methods="Pega_Login.Login_Page.Password" duration-ms="27501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Button -->
+        <test-method signature="Title()[pri:0, instance:Pega_Login.Login_Page@729d991e]" started-at="2021-11-22T20:13:46 IST" name="Title" finished-at="2021-11-22T20:13:56 IST" depends-on-methods="Pega_Login.Login_Page.Login_Button" duration-ms="10042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Pega_Login.Login_Page@729d991e]" started-at="2021-11-22T20:13:56 IST" name="finish" finished-at="2021-11-22T20:13:57 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Pega_Login.Login_Page -->
+    </test> <!-- TestingOnChrome -->
+    <test started-at="2021-11-22T20:13:57 IST" name="Testchrome" finished-at="2021-11-22T20:15:15 IST" duration-ms="78311">
+      <class name="Pega_Login.Login_Page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Pega_Login.Login_Page@2e6a8155]" started-at="2021-11-22T20:13:57 IST" name="setup" finished-at="2021-11-22T20:13:59 IST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="URL()[pri:0, instance:Pega_Login.Login_Page@2e6a8155]" started-at="2021-11-22T20:13:59 IST" name="URL" finished-at="2021-11-22T20:14:15 IST" duration-ms="15816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="Username()[pri:0, instance:Pega_Login.Login_Page@2e6a8155]" started-at="2021-11-22T20:14:15 IST" name="Username" finished-at="2021-11-22T20:14:25 IST" depends-on-methods="Pega_Login.Login_Page.URL" duration-ms="10154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method signature="Password()[pri:0, instance:Pega_Login.Login_Page@2e6a8155]" started-at="2021-11-22T20:14:25 IST" name="Password" finished-at="2021-11-22T20:14:35 IST" depends-on-methods="Pega_Login.Login_Page.Username" duration-ms="10227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method signature="Login_Button()[pri:0, instance:Pega_Login.Login_Page@2e6a8155]" started-at="2021-11-22T20:14:35 IST" name="Login_Button" finished-at="2021-11-22T20:15:05 IST" depends-on-methods="Pega_Login.Login_Page.Password" duration-ms="29439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Button -->
+        <test-method signature="Title()[pri:0, instance:Pega_Login.Login_Page@2e6a8155]" started-at="2021-11-22T20:15:05 IST" name="Title" finished-at="2021-11-22T20:15:15 IST" depends-on-methods="Pega_Login.Login_Page.Login_Button" duration-ms="10037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Pega_Login.Login_Page@2e6a8155]" started-at="2021-11-22T20:15:15 IST" name="finish" finished-at="2021-11-22T20:15:15 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Pega_Login.Login_Page -->
+    </test> <!-- Testchrome -->
+    <test started-at="2021-11-22T20:15:15 IST" name="Testerchrome" finished-at="2021-11-22T20:17:17 IST" duration-ms="121570">
+      <class name="Pega_Login.Login_Page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Pega_Login.Login_Page@5824a83d]" started-at="2021-11-22T20:15:15 IST" name="setup" finished-at="2021-11-22T20:15:17 IST" duration-ms="1720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="URL()[pri:0, instance:Pega_Login.Login_Page@5824a83d]" started-at="2021-11-22T20:15:17 IST" name="URL" finished-at="2021-11-22T20:15:33 IST" duration-ms="16465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="Username()[pri:0, instance:Pega_Login.Login_Page@5824a83d]" started-at="2021-11-22T20:15:34 IST" name="Username" finished-at="2021-11-22T20:15:44 IST" depends-on-methods="Pega_Login.Login_Page.URL" duration-ms="10177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method signature="Password()[pri:0, instance:Pega_Login.Login_Page@5824a83d]" started-at="2021-11-22T20:15:44 IST" name="Password" finished-at="2021-11-22T20:15:54 IST" depends-on-methods="Pega_Login.Login_Page.Username" duration-ms="10227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method signature="Login_Button()[pri:0, instance:Pega_Login.Login_Page@5824a83d]" started-at="2021-11-22T20:15:54 IST" name="Login_Button" finished-at="2021-11-22T20:17:06 IST" depends-on-methods="Pega_Login.Login_Page.Password" duration-ms="72157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Button -->
+        <test-method signature="Title()[pri:0, instance:Pega_Login.Login_Page@5824a83d]" started-at="2021-11-22T20:17:06 IST" name="Title" finished-at="2021-11-22T20:17:16 IST" depends-on-methods="Pega_Login.Login_Page.Login_Button" duration-ms="10057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Pega_Login.Login_Page@5824a83d]" started-at="2021-11-22T20:17:16 IST" name="finish" finished-at="2021-11-22T20:17:17 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Pega_Login.Login_Page -->
+    </test> <!-- Testerchrome -->
+    <test started-at="2021-11-22T20:17:17 IST" name="ValidCredentials" finished-at="2021-11-22T20:18:35 IST" duration-ms="77972">
+      <class name="Twice_Login.Valid_Credentials">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Twice_Login.Valid_Credentials@38cee291]" started-at="2021-11-22T20:17:17 IST" name="setup" finished-at="2021-11-22T20:17:19 IST" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="URL()[pri:0, instance:Twice_Login.Valid_Credentials@38cee291]" started-at="2021-11-22T20:17:19 IST" name="URL" finished-at="2021-11-22T20:17:34 IST" duration-ms="15625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="Username()[pri:0, instance:Twice_Login.Valid_Credentials@38cee291]" started-at="2021-11-22T20:17:34 IST" name="Username" finished-at="2021-11-22T20:17:45 IST" depends-on-methods="Twice_Login.Valid_Credentials.URL" duration-ms="10144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method signature="Password()[pri:0, instance:Twice_Login.Valid_Credentials@38cee291]" started-at="2021-11-22T20:17:45 IST" name="Password" finished-at="2021-11-22T20:17:55 IST" depends-on-methods="Twice_Login.Valid_Credentials.Username" duration-ms="10203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method signature="Login_Button()[pri:0, instance:Twice_Login.Valid_Credentials@38cee291]" started-at="2021-11-22T20:17:55 IST" name="Login_Button" finished-at="2021-11-22T20:18:24 IST" depends-on-methods="Twice_Login.Valid_Credentials.Password" duration-ms="29256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Button -->
+        <test-method signature="Title()[pri:0, instance:Twice_Login.Valid_Credentials@38cee291]" started-at="2021-11-22T20:18:24 IST" name="Title" finished-at="2021-11-22T20:18:34 IST" depends-on-methods="Twice_Login.Valid_Credentials.Login_Button" duration-ms="10037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Twice_Login.Valid_Credentials@38cee291]" started-at="2021-11-22T20:18:34 IST" name="finish" finished-at="2021-11-22T20:18:35 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Twice_Login.Valid_Credentials -->
+    </test> <!-- ValidCredentials -->
+    <test started-at="2021-11-22T20:18:35 IST" name="InvalidCredentials" finished-at="2021-11-22T20:19:32 IST" duration-ms="56722">
+      <class name="Twice_Login.Invalid_Credentials">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Twice_Login.Invalid_Credentials@13e344d]" started-at="2021-11-22T20:18:35 IST" name="setup" finished-at="2021-11-22T20:18:37 IST" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="URL()[pri:0, instance:Twice_Login.Invalid_Credentials@13e344d]" started-at="2021-11-22T20:18:37 IST" name="URL" finished-at="2021-11-22T20:18:50 IST" duration-ms="12993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="Username()[pri:0, instance:Twice_Login.Invalid_Credentials@13e344d]" started-at="2021-11-22T20:18:50 IST" name="Username" finished-at="2021-11-22T20:19:00 IST" depends-on-methods="Twice_Login.Invalid_Credentials.URL" duration-ms="10167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method signature="Password()[pri:0, instance:Twice_Login.Invalid_Credentials@13e344d]" started-at="2021-11-22T20:19:00 IST" name="Password" finished-at="2021-11-22T20:19:10 IST" depends-on-methods="Twice_Login.Invalid_Credentials.Username" duration-ms="10235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method signature="Login_Button()[pri:0, instance:Twice_Login.Invalid_Credentials@13e344d]" started-at="2021-11-22T20:19:10 IST" name="Login_Button" finished-at="2021-11-22T20:19:21 IST" depends-on-methods="Twice_Login.Invalid_Credentials.Password" duration-ms="10743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Button -->
+        <test-method signature="Title()[pri:0, instance:Twice_Login.Invalid_Credentials@13e344d]" started-at="2021-11-22T20:19:21 IST" name="Title" finished-at="2021-11-22T20:19:31 IST" depends-on-methods="Twice_Login.Invalid_Credentials.Login_Button" duration-ms="10044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Twice_Login.Invalid_Credentials@13e344d]" started-at="2021-11-22T20:19:31 IST" name="finish" finished-at="2021-11-22T20:19:32 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Twice_Login.Invalid_Credentials -->
+    </test> <!-- InvalidCredentials -->
+  </suite> <!-- MySuite -->
+</testng-results>
