@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-26T18:35:07 IST" name="MySuite" finished-at="2021-11-26T18:35:19 IST" duration-ms="12173">
+    <groups>
+    </groups>
+    <test started-at="2021-11-26T18:35:07 IST" name="TestingOnFirefox" finished-at="2021-11-26T18:35:19 IST" duration-ms="11808">
+      <class name="Parallel_Browser.Clicking_Links">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Parallel_Browser.Clicking_Links@6340e5f0]" started-at="2021-11-26T18:35:07 IST" name="setup" finished-at="2021-11-26T18:35:11 IST" duration-ms="3932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="URL()[pri:0, instance:Parallel_Browser.Clicking_Links@6340e5f0]" started-at="2021-11-26T18:35:11 IST" name="URL" finished-at="2021-11-26T18:35:16 IST" duration-ms="4738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="Twitter_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@6340e5f0]" started-at="2021-11-26T18:35:16 IST" name="Twitter_Click" finished-at="2021-11-26T18:35:16 IST" depends-on-methods="Parallel_Browser.Clicking_Links.URL" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Twitter_Click -->
+        <test-method signature="Facebook_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@6340e5f0]" started-at="2021-11-26T18:35:16 IST" name="Facebook_Click" finished-at="2021-11-26T18:35:16 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Twitter_Click" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facebook_Click -->
+        <test-method signature="Git_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@6340e5f0]" started-at="2021-11-26T18:35:16 IST" name="Git_Click" finished-at="2021-11-26T18:35:17 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Facebook_Click" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Git_Click -->
+        <test-method signature="Telegram_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@6340e5f0]" started-at="2021-11-26T18:35:17 IST" name="Telegram_Click" finished-at="2021-11-26T18:35:17 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Git_Click" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Telegram_Click -->
+        <test-method signature="Mail_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@6340e5f0]" started-at="2021-11-26T18:35:17 IST" name="Mail_Click" finished-at="2021-11-26T18:35:18 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Telegram_Click" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mail_Click -->
+        <test-method signature="Linkdin_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@6340e5f0]" started-at="2021-11-26T18:35:18 IST" name="Linkdin_Click" finished-at="2021-11-26T18:35:18 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Mail_Click" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Linkdin_Click -->
+        <test-method signature="Youtube_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@6340e5f0]" started-at="2021-11-26T18:35:18 IST" name="Youtube_Click" finished-at="2021-11-26T18:35:19 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Linkdin_Click" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Youtube_Click -->
+      </class> <!-- Parallel_Browser.Clicking_Links -->
+    </test> <!-- TestingOnFirefox -->
+    <test started-at="2021-11-26T18:35:07 IST" name="TestingOnChrome" finished-at="2021-11-26T18:35:19 IST" duration-ms="12173">
+      <class name="Parallel_Browser.Clicking_Links">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Parallel_Browser.Clicking_Links@23c30a20]" started-at="2021-11-26T18:35:07 IST" name="setup" finished-at="2021-11-26T18:35:09 IST" duration-ms="1948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="URL()[pri:0, instance:Parallel_Browser.Clicking_Links@23c30a20]" started-at="2021-11-26T18:35:09 IST" name="URL" finished-at="2021-11-26T18:35:17 IST" duration-ms="7534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="Twitter_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@23c30a20]" started-at="2021-11-26T18:35:17 IST" name="Twitter_Click" finished-at="2021-11-26T18:35:17 IST" depends-on-methods="Parallel_Browser.Clicking_Links.URL" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Twitter_Click -->
+        <test-method signature="Facebook_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@23c30a20]" started-at="2021-11-26T18:35:17 IST" name="Facebook_Click" finished-at="2021-11-26T18:35:17 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Twitter_Click" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facebook_Click -->
+        <test-method signature="Git_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@23c30a20]" started-at="2021-11-26T18:35:17 IST" name="Git_Click" finished-at="2021-11-26T18:35:17 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Facebook_Click" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Git_Click -->
+        <test-method signature="Telegram_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@23c30a20]" started-at="2021-11-26T18:35:17 IST" name="Telegram_Click" finished-at="2021-11-26T18:35:18 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Git_Click" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Telegram_Click -->
+        <test-method signature="Mail_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@23c30a20]" started-at="2021-11-26T18:35:18 IST" name="Mail_Click" finished-at="2021-11-26T18:35:18 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Telegram_Click" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mail_Click -->
+        <test-method signature="Linkdin_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@23c30a20]" started-at="2021-11-26T18:35:18 IST" name="Linkdin_Click" finished-at="2021-11-26T18:35:19 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Mail_Click" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Linkdin_Click -->
+        <test-method signature="Youtube_Click()[pri:0, instance:Parallel_Browser.Clicking_Links@23c30a20]" started-at="2021-11-26T18:35:19 IST" name="Youtube_Click" finished-at="2021-11-26T18:35:19 IST" depends-on-methods="Parallel_Browser.Clicking_Links.Linkdin_Click" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Youtube_Click -->
+      </class> <!-- Parallel_Browser.Clicking_Links -->
+    </test> <!-- TestingOnChrome -->
+  </suite> <!-- MySuite -->
+</testng-results>
