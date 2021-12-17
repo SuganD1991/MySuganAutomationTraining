@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-17T23:41:43 IST" name="Default suite" finished-at="2021-12-17T23:41:55 IST" duration-ms="11298">
+    <groups>
+    </groups>
+    <test started-at="2021-12-17T23:41:43 IST" name="Default test" finished-at="2021-12-17T23:41:55 IST" duration-ms="11298">
+      <class name="Print_Table.Results_In_Console">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Print_Table.Results_In_Console@729d991e]" started-at="2021-12-17T23:41:43 IST" name="setup" finished-at="2021-12-17T23:41:47 IST" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="URL()[pri:0, instance:Print_Table.Results_In_Console@729d991e]" started-at="2021-12-17T23:41:47 IST" name="URL" finished-at="2021-12-17T23:41:49 IST" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="Top_Deals()[pri:0, instance:Print_Table.Results_In_Console@729d991e]" started-at="2021-12-17T23:41:49 IST" name="Top_Deals" finished-at="2021-12-17T23:41:49 IST" depends-on-methods="Print_Table.Results_In_Console.URL" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Top_Deals -->
+        <test-method signature="Search()[pri:0, instance:Print_Table.Results_In_Console@729d991e]" started-at="2021-12-17T23:41:49 IST" name="Search" finished-at="2021-12-17T23:41:55 IST" depends-on-methods="Print_Table.Results_In_Console.Top_Deals" duration-ms="5287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Vegetable()[pri:0, instance:Print_Table.Results_In_Console@729d991e]" started-at="2021-12-17T23:41:55 IST" name="Vegetable" finished-at="2021-12-17T23:41:55 IST" depends-on-methods="Print_Table.Results_In_Console.Search" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vegetable -->
+        <test-method signature="Price()[pri:0, instance:Print_Table.Results_In_Console@729d991e]" started-at="2021-12-17T23:41:55 IST" name="Price" finished-at="2021-12-17T23:41:55 IST" depends-on-methods="Print_Table.Results_In_Console.Vegetable" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Price -->
+        <test-method signature="Dis_Price()[pri:0, instance:Print_Table.Results_In_Console@729d991e]" started-at="2021-12-17T23:41:55 IST" name="Dis_Price" finished-at="2021-12-17T23:41:55 IST" depends-on-methods="Print_Table.Results_In_Console.Price" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dis_Price -->
+      </class> <!-- Print_Table.Results_In_Console -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
