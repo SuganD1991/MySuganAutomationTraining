@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [MySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="TestingOnChrome(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="Parallel_Browser.Clicking_Links">
+        <methods>
+          <include name="URL"/>
+          <include name="finish"/>
+          <include name="Twitter_Click"/>
+          <include name="setup"/>
+          <include name="Telegram_Click"/>
+          <include name="Linkdin_Click"/>
+          <include name="Facebook_Click"/>
+          <include name="Mail_Click"/>
+          <include name="Git_Click"/>
+          <include name="Youtube_Click"/>
+        </methods>
+      </class> <!-- Parallel_Browser.Clicking_Links -->
+    </classes>
+  </test> <!-- TestingOnChrome(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
