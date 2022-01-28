@@ -99,17 +99,30 @@ public class LoginIqz {
 		
 		}
 	
+	@Parameters("browserName")
 	@Test(dependsOnMethods = "userportal")
-	public void individuallead() throws InterruptedException {
+	public void individuallead(String browserName) throws InterruptedException {
 		
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		WebElement btnedit=wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//div[@class='content-item content-field item-1 flex flex-row button-full-width dataValueRead']//following::span[4]/button[1]")));
 		btnedit.click();
+		if (browserName.equalsIgnoreCase("chrome")) {
 		WebDriverWait wait0 = new WebDriverWait(driver, 20);
 		WebElement btnemail = wait0.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//input[@id='ed7814e7']")));
-		btnemail.sendKeys("Charles.c@iqzsystems.com");
+		btnemail.sendKeys("Prem.c@iqzsystems.com");
+		}else if (browserName.equalsIgnoreCase("firefox")) {
+			WebDriverWait wait9 = new WebDriverWait(driver, 20);
+			WebElement btnemail = wait9.until(ExpectedConditions
+					.visibilityOfElementLocated(By.xpath("//input[@id='ed7814e7']")));
+			btnemail.sendKeys("Rajeev.c@iqzsystems.com");
+		}else if (browserName.equalsIgnoreCase("edge")) {
+			WebDriverWait wait10 = new WebDriverWait(driver, 20);
+			WebElement btnemail = wait10.until(ExpectedConditions
+					.visibilityOfElementLocated(By.xpath("//input[@id='ed7814e7']")));
+			btnemail.sendKeys("Ganesh.c@iqzsystems.com");
+		}
 		
 		WebDriverWait wait1 = new WebDriverWait(driver, 20);
 		WebElement btnsubmit=wait1.until(ExpectedConditions
